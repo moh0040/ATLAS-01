@@ -1,0 +1,536 @@
+html
+{ height: 100%;}
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background-color:#FAFAFA;
+  }
+
+#main, #header, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;
+  }
+
+#main
+{
+  margin: 20px auto;
+}
+
+#header
+{
+  height: 37px;
+  background-color:#8B8B8B;
+}
+
+#menubar {
+  width: 1048px;
+  height: 38px;
+  padding: 0;
+  background-color:#BABABA;
+}
+
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0;
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block;
+  float: left;
+  height: 12px;
+  padding: 13px 45px 12px 44px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;}
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #626262;}
+
+#site_content
+{
+  width:1024px;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 25px 0 0 25px;
+  background-color: rgba(221, 221, 221, 0.27);
+  border-top: 0;
+  border-bottom: 0;
+}
+ /*
+#footer
+{
+    height: 37px;
+    background-color: #8B8B8B;
+}
+*/
+#get_app
+{
+  /*overflow: scroll;*/
+  margin: 34px auto 0 45px;
+  float:left;
+  width: 587px;
+  height: 187px;
+
+ /*overflow:auto;*/
+}
+
+
+
+#get_app1
+{
+  margin: 0px 0px 0px 0px;
+  float:left;
+  width: 363px;
+  height: 1000px;
+
+}
+
+
+
+#get_schema{
+  margin: 0px auto 0 -8px;
+  float:center;
+  background-color:#DFDFDF;
+  width: 100%;
+  height: 100%;
+  } 
+
+#table_version{
+  margin: -82px 103px 0 -65px;
+  background-color:#CEECF5;
+  width: 94px;
+  }
+#add_app
+{
+  margin: 0px 0px 0px 15px;
+  padding-top: 0px;
+  float:left;
+  width: 440px;
+  height: 250px;
+  background-color:red;
+  }
+#add_schema
+{
+  margin: 0px 20px 0 auto;
+  padding-top: 0px;
+  float:right;
+  background-color: #DFDFDF;
+  width: 100%;
+  height: 100%px;
+}
+#inside
+{
+  background-color: red;
+  width: 40px;
+  height: 20px;   
+}
+
+.note1
+{
+margin: 0px 0px 0px 15px;
+font-size: 18px;
+}
+
+
+
+#S1{
+width: 1000px;
+height: 250px;
+background-color:#F2F2F2;
+
+}
+#S11{
+width: 370px;
+height: 220px;
+float: left;
+background-color:#F2F2F2;
+}
+
+
+#S12{
+width: 500px;
+height: 220px;
+float: right;
+background-color:#F2F2F2;
+
+}
+#S2{
+width: 1000px;
+float:left;
+background-color:#F2F2F2;
+}
+#S3{
+width: 980px;
+height: 650px;
+}
+    
+#S31{
+width: 980px;
+height: 50px;
+float:right;
+}
+#S32{
+width: 400px;
+height: 400px;
+float:right;
+}
+
+
+#S33{
+width: 580px;
+height: 400px;
+float:left;
+}
+#sec
+{
+width:350px;
+height: 58px;
+margin: 3px 68px 0px 0px;
+background-color:#FFF;
+}
+#fir
+{
+width:350px;
+height:42px;
+margin: 3px 68px 0px 0px;
+background-color:#FFF;
+}
+
+
+#state3{
+width:300px;
+height:34px;
+margin: 36px 0px 0px 0px;
+
+
+
+
+}
+#test{
+float: right;
+width: 380px;
+height: 50px;
+margin-top: 220px;
+}
+#VersionSchema{
+float: right;
+width: 250px;
+height: 25px;
+margin-top: 0px;
+}
+#get
+{
+width: 250 px;
+}
+#sn1{
+margin: 0px 0px -20px 250px;
+width: 200px;
+height: 20px; 
+}
+#sn2{
+margin: 0px 0px 0px 460px;
+width: 200px;
+height: 20px; 
+}
+
+#tbl
+{
+    width: 350px;
+    height: 45px;
+    margin: -12px 68px 0px 0px;
+    background-color: #FFF;
+}
+#Name
+{
+
+    width: 275px;
+    height: 23px;
+    margin: 0px 0px 3px 0px;
+    background-color: #FFF;
+
+}
+#tbl_S
+{
+width:350px;
+height: 42px;
+margin: -16px 68px 0px 0px;
+background-color:#FFF;
+}
+
+#tbl_S2
+{
+width:350px;
+height: 40px;
+margin: 3px 6px 17px 0px;
+background-color:#FFF;
+}
+
+
+#NameSpace
+{
+width:275px;
+height: 23px;
+margin: 0px 0px 0px 0px;
+background-color:#FFF;
+}
+
+
+
+#table_schema
+{
+width:314px;
+margin: -16px 60px 0px 182px;
+}
+
+#text
+{
+color: black;
+font-weight: 500;
+float:center;
+}
+
+
+
+
+
+#lable_app
+{
+margin: -26 px 0px 20px 117px;
+font-size:20px;
+}
+
+#lable_app2
+{
+margin: 2px 0px -13px 124px;
+font-size:20px;
+}
+
+.button {
+border: none;
+color:#848484;
+padding: 13px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+margin: 17px 2px;
+
+}
+
+.button6{
+float: left;
+width:90px;
+height: 30px;
+border-bottom:ba;
+margin-top: 10px;
+cursor: pointer;
+font-weight:bold;
+}
+
+.button7{
+float: right;
+width:120px;
+height: 45px;
+margin-top: 29px;
+margin-right:197px;
+cursor: pointer;
+}
+.button8{
+float: right;
+width:120px;
+height: 45px;
+margin: -58px 519px 0px 0px;
+border-bottom:groove;
+cursor: pointer;
+}
+
+
+
+.button9{
+float: right;
+width:120px;
+height: 45px;
+margin: -61px 521px 0px 0px;
+border-bottom:groove;
+cursor: pointer;
+}
+
+.button11{
+float: right;
+width:120px;
+height: 45px;
+margin: -58px 653px 0px 0px;
+border-bottom:groove;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+#nameP{
+margin: 0px 0px 21px 0px;
+}
+#nameP2{
+margin: 34px 0px 6px 0px;
+}
+#nameP3{
+margin: 0px 0px 21px 0px;
+}
+#nameP4{
+margin: 34px 0px 6px 0px;
+}
+
+
+#add_applic
+{
+margin: 0px 0px 0px 35px;
+}
+
+
+/*--select option style--*/
+select {
+    border: 1px solid #d6d8db;
+    background-color: #ecedee;
+    color: #47515c;
+    padding: 12px 10px 12px 10px;
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size:15px;
+}
+select > option {
+    padding: 5px 0px;
+}
+.customSelect {
+    border: 1px solid #d6d8db;
+    background-color: #ecedee;
+    color: #47515c;
+    padding: 12px 10px 12px 10px;
+    margin-bottom: 10px;
+}
+.customSelect.changed {
+    background-color: #f0dea4;
+}
+
+input[type="text"] {
+    font-size:15px;
+    color: #47515c;
+}
+
+textarea {
+margin: 4px 0px 0px 0px;
+}
+
+#vali{
+width: 250px;
+height: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: #00B7FF;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    background: #dfdfdf;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li .edit {
+    display: none;
+}
+
+ul li.edit .edit {
+    display: initial;
+}
+
+ul li.edit .noedit {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+
+    width: 554px;
+    border-collapse: collapse;
+    display: block;
+
+}
+thead {
+    background-color: rgba(101, 101, 108, 0.58);
+}
+thead, tbody {
+    display: block;
+    margin: 0px 7px 0px 0px;
+}
+tbody {
+
+    overflow: auto;
+    height: 140px;
+}
+tr {
+    height: 28px;
+}
+td, th {
+    min-width: 272px;
+    text-align: left;
+    border: 1px solid #ffffff;
+
+
+
+}
+
+
+table tr td
+{ background: #DDD;
+    color: #47433F;
+    border-top: 1px solid #FFF;}

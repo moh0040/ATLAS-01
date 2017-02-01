@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+     <head>
+           <title>ATLAS_App</title>
+           <link rel="stylesheet" type="text/css" href="style.css" />
+     </head>
+     <body>
+           <div id="main">
+                 <div id="header">
+                      <div id="menubar">
+                           <ul id="menu">
+                                <li ><a href="index.html">Application</a></li>
+                                <li class="selected" ><a href="schema.html">Schema</a></li>
+                           </ul>
+                      </div>
+                 </div>
+                 <div id="site_content">
+                      <div id=S1>
+                           <div id=S11>
+                               <div id = "schInfo"><br>
+                                   <h2>Schema information</h2><br><hr><br>
+                                   <p>Schema Name</p>
+                                   <select id = "fir" class="styled" >
+                                       <option>Select Schema Name</option>
+                                   </select><br><br><br>
+                                   <p>Schema Version</p>
+                                   <select id="sec" class="styled" size="6">
+                                       <option value="data" selected>select version of schema</option>
+                                   </select>
+                               </div>
+                           </div>
+                           <div id=S12>
+                               <div id="state"><br>
+                                   <h2>State of Schema</h2><br><hr><br>
+                                   <button class="button button1">DRAFT</button>
+                                   <button class="button button2">PUBLISHED</button>
+                                   <button class="button button3">DEPRECATED</button>
+                                   <button class="button button4">INVALID</button>
+                                   <button class="button7" title='You can use transition only if state is DRAFT !'>TRANSITION</button>
+                                   <div id="state3"></div>
+                               </div>
+                           </div>
+                      </div>
+                      <div id=S2>
+                          <div id="ShowSchema"><br>
+                                  <h2>Add/Edit/View</h2><br><hr><br>
+                                  <p>Schema Version</p>
+                                  <input id="tbl_S2"  type="number" min="1" max="10"  >
+                                  <button class="button9" title='This button will clean Schema Version and Schema text !'>CLEAR</button>
+                                  <p>Schema</p>
+                                  <p><span></span><textarea id="myTextArea" rows="10" cols="66" name="your_enquiry"></textarea></p>
+                          </div>
+                          <div id="vali">
+                             <span id="spanid"></span>
+                          </div>
+                          <div>
+                              <button class="button11" title='This button will Check Validation of Schema'>Check Validation</button>
+                              <button class="button8" title='You can use SAVE button only if state is DRAFT !'>SAVE</button><br>
+                          </div><br><br>
+                      </div>
+                 </div>
+                 <div id="footer">
+                 </div>
+           </div>
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+          <script type="text/javascript" src="script2.js"></script>
+    </body>
+</html>
