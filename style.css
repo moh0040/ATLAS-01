@@ -93,7 +93,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0px 0px 0px 0px;
   float:left;
   width: 363px;
-  height: 1000px;
+
 
 }
 
@@ -101,7 +101,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #get_schema{
   margin: 0px auto 0 -8px;
-  float:center;
+  float:left;
   background-color:#DFDFDF;
   width: 100%;
   height: 100%;
@@ -128,7 +128,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   float:right;
   background-color: #DFDFDF;
   width: 100%;
-  height: 100%px;
+  height: 100%;
 }
 #inside
 {
@@ -232,7 +232,7 @@ margin-top: 0px;
 }
 #get
 {
-width: 250 px;
+width: 250px;
 }
 #sn1{
 margin: 0px 0px -20px 250px;
@@ -298,7 +298,7 @@ margin: -16px 60px 0px 182px;
 {
 color: black;
 font-weight: 500;
-float:center;
+float:left;
 }
 
 
@@ -307,7 +307,7 @@ float:center;
 
 #lable_app
 {
-margin: -26 px 0px 20px 117px;
+margin: -26px 0px 20px 117px;
 font-size:20px;
 }
 
@@ -333,7 +333,6 @@ margin: 17px 2px;
 float: left;
 width:90px;
 height: 30px;
-border-bottom:ba;
 margin-top: 10px;
 cursor: pointer;
 font-weight:bold;
