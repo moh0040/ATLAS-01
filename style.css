@@ -60,11 +60,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #site_content
 {
-  width:1024px;
+  width:1048px;
   overflow: hidden;
   margin: 0px auto 0 auto;
-  padding: 25px 0 0 25px;
-  background-color: rgba(221, 221, 221, 0.27);
+  padding: 9px 0 0 0px;
+
   border-top: 0;
   border-bottom: 0;
 }
@@ -78,9 +78,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #get_app
 {
   /*overflow: scroll;*/
-  margin: 30px auto 0 45px;
+  margin: -15px auto 0 100px;
   float:left;
-  width: 587px;
+  width: 563px;
 
 
  /*overflow:auto;*/
@@ -255,9 +255,9 @@ height: 20px;
 #Name
 {
 
-    width: 275px;
-    height: 23px;
-    margin: 0px 0px 3px 0px;
+    width: 200px;
+    height: 15px;
+    margin: 0px 0px 10px 0px;
     background-color: #FFF;
 
 }
@@ -280,8 +280,8 @@ background-color:#FFF;
 
 #NameSpace
 {
-width:275px;
-height: 23px;
+width:200px;
+height: 15px;
 margin: 0px 0px 0px 0px;
 background-color:#FFF;
 }
@@ -330,12 +330,15 @@ margin: 17px 2px;
 }
 
 .button6{
-float: left;
-width:90px;
-height: 30px;
-margin-top: 10px;
-cursor: pointer;
-font-weight:bold;
+font: 100% arial;
+    border: 1px solid;
+    width: 99px;
+    margin: 0 0 0 -5px;
+    height: 33px;
+    padding: 2px 0 3px 0;
+    cursor: pointer;
+    background: #3B3B3B;
+    color: #FFF;
 }
 
 .button7{
@@ -499,9 +502,10 @@ ul li.edit .noedit {
 
 table {
 
-    width: 554px;
+    width: 563px;
     border-collapse: collapse;
     display: block;
+
 
 }
 
@@ -550,7 +554,7 @@ tr:last-of-type td:last-child {
 
 
 tbody:hover tr:hover td {
-    color: #28282c;
+    color: #110fff;
     font-weight: bold;
     font-size: 170%;
 
@@ -568,7 +572,7 @@ thead, tbody {
 tbody {
 
     overflow: auto;
-    height: 140px;
+    height: 200px;
     width: 580px;
 }
 tr {
@@ -589,3 +593,11 @@ table tr td
     color: #47433F;
     border-top: 1px solid #FFF;}
 
+
+
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 10;
+}
