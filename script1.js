@@ -5,14 +5,14 @@
 
 $(function() {
 ///////////////////////////////////////////////start
-var $name=$('#Name');
-var $namesp=$('#NameSpace');
-var RestApi1='http://gate.atlascon.cz:9999/rest/a/';
+//var $name=$('#Name');
+//var $namesp=$('#NameSpace');
+//var RestApi1='http://gate.atlascon.cz:9999/rest/a/';
 
 
 
 //////////////////////////////////////////GET method with learncode/api  and result in table
-/*
+
     var $orders=$('#orders');
     var $name = $('#name');
     var $drink = $('#drink');
@@ -39,10 +39,11 @@ var RestApi1='http://gate.atlascon.cz:9999/rest/a/';
     	}
 	});
 
-*/
+
 
 
 /////////////////////////////////////////////////////////////GET method with atlas api
+    /*
     $.ajax({
         type: 'GET',
         url: RestApi1+'listNames',
@@ -139,7 +140,7 @@ var RestApi1='http://gate.atlascon.cz:9999/rest/a/';
 
 
 
-
+*/
 
 });
 
