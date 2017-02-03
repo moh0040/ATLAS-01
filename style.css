@@ -255,10 +255,11 @@ height: 20px;
 #Name
 {
 
-    width: 200px;
-    height: 15px;
+    width: 210px;
+    height: 20px;
     margin: 0px 0px 10px 0px;
     background-color: #FFF;
+    border-radius: 5px;
 
 }
 #tbl_S
@@ -280,10 +281,11 @@ background-color:#FFF;
 
 #NameSpace
 {
-width:200px;
-height: 15px;
+width:210px;
+height: 20px;
 margin: 0px 0px 0px 0px;
 background-color:#FFF;
+border-radius: 5px;
 }
 
 
